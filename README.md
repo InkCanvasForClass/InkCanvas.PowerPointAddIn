@@ -150,14 +150,42 @@ PipeConstants.PipeName = "MyCustomPipeName";
 
 ## Sample Client
 
-Run the included console client:
+### Prerequisites
+
+1. PowerPoint must be running with the PPTAgent add-in loaded
+2. .NET 6.0 SDK or later
+
+### Run
 
 ```bash
 cd samples/ConsoleClient
 dotnet run
 ```
 
-It provides an interactive menu to send commands and displays events in real-time.
+The console client will:
+1. Connect to the PPTAgent named pipe
+2. Display an interactive menu:
+   ```
+   PPTAgent Console Client
+   =======================
+   Connecting to pipe: PPTAgent_Pipe
+   Connecting... Connected!
+
+   Commands:
+     1) Get state
+     2) Next slide
+     3) Previous slide
+     4) Goto slide
+     5) Start slide show
+     6) End slide show
+     7) Show slide navigation
+     8) Disable auto-play timings
+     9) Unhide hidden slides
+     0) Exit
+   >
+   ```
+3. Send commands and display responses
+4. Receive and display events (e.g., `slideShowBegin`, `slideShowNextSlide`) in real-time
 
 ## License
 
