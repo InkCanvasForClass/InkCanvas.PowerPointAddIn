@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleClient/1.7.19.4-g9dc31226b1": {
+        "dependencies": {
+          "Nerdbank.GitVersioning": "3.9.50",
+          "Newtonsoft.Json": "13.0.4",
+          "PPTAgent.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleClient.dll": {}
+        }
+      },
+      "Nerdbank.GitVersioning/3.9.50": {},
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "PPTAgent.Contracts/1.0.0": {
+        "runtime": {
+          "PPTAgent.Contracts.dll": {
+            "assemblyVersion": "1.7.19.4",
+            "fileVersion": "1.7.19.4"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleClient/1.7.19.4-g9dc31226b1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nerdbank.GitVersioning/3.9.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HtOgGF6jZ+WYbXnCUCYPT8Y2d6mIJo9ozjK/FINTRsXdm4Zgv9GehUMa7EFoGQkqrMcDJNOIDwCmENnvXg4UbA==",
+      "path": "nerdbank.gitversioning/3.9.50",
+      "hashPath": "nerdbank.gitversioning.3.9.50.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "PPTAgent.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
